@@ -1,0 +1,11 @@
+[project]
+name = "viam-leak-detect"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "niquests>=3.9.0",
+    "pydantic-settings>=2.5.2",
+    "viam-sdk>=0.31.0",
+]
